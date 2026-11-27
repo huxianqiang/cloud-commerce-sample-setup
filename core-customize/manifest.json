@@ -1,5 +1,5 @@
 {
-    "commerceSuiteVersion": "2211-jdk21.10",
+    "commerceSuiteVersion": "2211-jdk21.18",
     "enableImageProcessingService": true,
     "extensions": [
         "cloudmediaconversion",
@@ -204,10 +204,6 @@
             ],
             "webapps": [
                 {
-                    "name": "hac",
-                    "contextPath": "/hac"
-                },
-                {
                     "name": "mediaweb",
                     "contextPath": "/medias"
                 },
@@ -283,9 +279,21 @@
                     "contextPath": "/tomcatembeddedserver"
                 },
                 {
+                    "name": "yempty",
+                    "contextPath": "/yempty"
+                },				
+                {
                     "name": "embeddedserver",
                     "contextPath": "/embeddedserver"
                 },
+                {
+                    "name": "groovynature",
+                    "contextPath": "/groovynature"
+                },
+                {
+                    "name": "mediaconversion",
+                    "contextPath": "/mediaconversion"
+                },				
                 {
                     "name": "authorizationserver",
                     "contextPath": "/authorizationserver"
@@ -352,10 +360,6 @@
                 {
                     "name": "b2bpunchout",
                     "contextPath": "/b2bpunchout"
-                },
-                {
-                    "name": "hac",
-                    "contextPath": "/hac"
                 },
                 {
                     "name": "orbeonweb",
@@ -471,6 +475,10 @@
                     "value": "*"
                 },
                 {
+                    "key": "corsfilter.authorizationserver.allowedOrigins",
+                    "value": "*"
+                },				
+                {
                     "key": "mockup.payment.label.billTo.region",
                     "value": "billTo_state"
                 },
@@ -480,7 +488,7 @@
                 }
             ],
             "webapps": [
-                {
+				{
                     "name": "mediaweb",
                     "contextPath": "/medias"
                 },
@@ -504,6 +512,10 @@
                     "name": "permissionswebservices",
                     "contextPath": "/permissionswebservices"
                 },
+                {
+                    "name": "ywebservices",
+                    "contextPath": "/ywebservices"
+                },				
                 {
                     "name": "previewwebservices",
                     "contextPath": "/previewwebservices"
@@ -543,10 +555,6 @@
                 }
             ],
             "webapps": [
-                {
-                    "name": "hac",
-                    "contextPath": "/hac"
-                },
                 {
                     "name": "mediaweb",
                     "contextPath": "/medias"
