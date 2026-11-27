@@ -3,8 +3,7 @@
     "enableImageProcessingService": true,
     "extensions": [
         "cloudmediaconversion",
-        "mediaconversionbackoffice",
-        "azurecloudhotfolder"
+        "mediaconversionbackoffice"
     ],
     "storefrontAddons": [
         {
@@ -50,6 +49,7 @@
         "extensions": {
             "location": "hybris/config/localextensions.xml",
             "exclude": [
+                "azurecloudhotfolder",
                 "cloudcommons",
                 "cloudhotfolder"
             ]
