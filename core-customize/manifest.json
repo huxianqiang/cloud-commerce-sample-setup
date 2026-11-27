@@ -129,38 +129,6 @@
             "value": "true"
         },
         {
-            "key": "website.electronics-spa.http",
-            "value": "${ccv2.services.jsapps.url.0}"
-        },
-        {
-            "key": "website.electronics-spa.https",
-            "value": "${ccv2.services.jsapps.url.0}"
-        },
-        {
-            "key": "website.apparel-uk-spa.http",
-            "value": "${ccv2.services.jsapps.url.0}"
-        },
-        {
-            "key": "website.apparel-uk-spa.https",
-            "value": "${ccv2.services.jsapps.url.0}"
-        },
-        {
-            "key": "website.apparel-de-spa.http",
-            "value": "${ccv2.services.jsapps.url.0}"
-        },
-        {
-            "key": "website.apparel-de-spa.https",
-            "value": "${ccv2.services.jsapps.url.0}"
-        },
-        {
-            "key": "website.powertools-spa.http",
-            "value": "${ccv2.services.jsapps.url.0}"
-        },
-        {
-            "key": "website.powertools-spa.https",
-            "value": "${ccv2.services.jsapps.url.0}"
-        },
-        {
             "key": "b2bpunchout.order.verification.enabled",
             "value": "true"
         },
@@ -281,7 +249,7 @@
                 {
                     "name": "yempty",
                     "contextPath": "/yempty"
-                },				
+                },
                 {
                     "name": "embeddedserver",
                     "contextPath": "/embeddedserver"
@@ -293,7 +261,7 @@
                 {
                     "name": "mediaconversion",
                     "contextPath": "/mediaconversion"
-                },				
+                },
                 {
                     "name": "authorizationserver",
                     "contextPath": "/authorizationserver"
@@ -477,7 +445,7 @@
                 {
                     "key": "corsfilter.authorizationserver.allowedOrigins",
                     "value": "*"
-                },				
+                },
                 {
                     "key": "mockup.payment.label.billTo.region",
                     "value": "billTo_state"
@@ -488,7 +456,7 @@
                 }
             ],
             "webapps": [
-				{
+                {
                     "name": "mediaweb",
                     "contextPath": "/medias"
                 },
@@ -515,7 +483,7 @@
                 {
                     "name": "ywebservices",
                     "contextPath": "/ywebservices"
-                },				
+                },
                 {
                     "name": "previewwebservices",
                     "contextPath": "/previewwebservices"
